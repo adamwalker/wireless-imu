@@ -1,0 +1,21 @@
+name:                wireless-imu
+version:             0.1.0.0
+-- synopsis:            
+-- description:         
+license:             BSD3
+license-file:        LICENSE
+author:              Adam Walker
+maintainer:          adamwalker10@gmail.com
+-- copyright:           
+-- category:            
+build-type:          Simple
+-- extra-source-files:  
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     WirelessIMU.UDPSource, WirelessIMU.ReadSensors
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.8 && <4.9, network >=2.6 && <2.7, pipes >=4.1 && <4.2, split >=0.2 && <0.3, linear >=1.18 && <1.19
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
