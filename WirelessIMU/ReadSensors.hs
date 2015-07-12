@@ -1,6 +1,8 @@
 module WirelessIMU.ReadSensors (
+    Sensor(..),
     Result(..),
     State(..),
+    calibrate,
     procMsg,
     process,
     getMessages,
